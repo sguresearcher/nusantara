@@ -177,7 +177,7 @@ install_module() {
     # --- 2. Installing Shuffle (SOAR) ---
     print_step_header "Installing Shuffle (SOAR)"
   
-    cd Shuffle
+    cd shuffle
     mkdir -p shuffle-database 
     sudo chown -R 1000:1000 shuffle-database
     sudo swapoff -a
